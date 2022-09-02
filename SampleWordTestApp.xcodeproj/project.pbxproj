@@ -13,6 +13,7 @@
 		CB82DE5A28C198FD004149C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB82DE5828C198FD004149C0 /* Main.storyboard */; };
 		CB82DE5C28C19900004149C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB82DE5B28C19900004149C0 /* Assets.xcassets */; };
 		CB82DE5F28C19900004149C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB82DE5D28C19900004149C0 /* LaunchScreen.storyboard */; };
+		CB82DE6728C1991F004149C0 /* sample_dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = CB82DE6628C1991F004149C0 /* sample_dictionary.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CB82DE5B28C19900004149C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB82DE5E28C19900004149C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB82DE6028C19900004149C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB82DE6628C1991F004149C0 /* sample_dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_dictionary.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CB82DE5128C198FD004149C0 /* SampleWordTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				CB82DE6628C1991F004149C0 /* sample_dictionary.json */,
 				CB82DE5228C198FD004149C0 /* AppDelegate.swift */,
 				CB82DE5428C198FD004149C0 /* SceneDelegate.swift */,
 				CB82DE5628C198FD004149C0 /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB82DE5F28C19900004149C0 /* LaunchScreen.storyboard in Resources */,
+				CB82DE6728C1991F004149C0 /* sample_dictionary.json in Resources */,
 				CB82DE5C28C19900004149C0 /* Assets.xcassets in Resources */,
 				CB82DE5A28C198FD004149C0 /* Main.storyboard in Resources */,
 			);
